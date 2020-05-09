@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "user": 2,
+    "accessToken": 6,
+    "userCredential": 1,
+    "userIdentity": 2,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1
+  },
+  "models": {
+    "user": {
+      "1": "{\"username\":\"facebook.2931450186952985\",\"password\":\"$2a$10$juE3FoRU8GwzTra1lIzdoOTo/CK/CGAISPX2SqxfjQX7w.OB0a13W\",\"email\":\"2931450186952985@loopback.facebook.com\",\"id\":1}"
+    },
+    "accessToken": {
+      "RqRfDL287J41xhdyijEDFMNnp58wZoStbETk6bcnf2gV4fgJaF31X1GGY2MtejTg": "{\"id\":\"RqRfDL287J41xhdyijEDFMNnp58wZoStbETk6bcnf2gV4fgJaF31X1GGY2MtejTg\",\"ttl\":1209600,\"created\":\"2020-05-07T11:05:24.752Z\",\"userId\":1}",
+      "zk5TtCaECWEAf5Cmv8xuGQcpmTDnxFndfs9T5UHa3v9vdA9S2hwJMvNSa8q68MHk": "{\"id\":\"zk5TtCaECWEAf5Cmv8xuGQcpmTDnxFndfs9T5UHa3v9vdA9S2hwJMvNSa8q68MHk\",\"ttl\":1209600,\"created\":\"2020-05-07T11:20:50.024Z\",\"userId\":1}",
+      "b7ezzvk5tNBASEYDjay59c6qMIqR3jaZkAa2v3MEmHoiVJNwqnc06t34l0avs6wL": "{\"id\":\"b7ezzvk5tNBASEYDjay59c6qMIqR3jaZkAa2v3MEmHoiVJNwqnc06t34l0avs6wL\",\"ttl\":1209600,\"created\":\"2020-05-09T05:32:40.929Z\",\"userId\":1}",
+      "NqeKZfwQlPWvNTmu4tQDHtRy6n0j9on8ixIozXxbSqP3lcR0C2VCf4m4e4x3P89b": "{\"id\":\"NqeKZfwQlPWvNTmu4tQDHtRy6n0j9on8ixIozXxbSqP3lcR0C2VCf4m4e4x3P89b\",\"ttl\":1209600,\"created\":\"2020-05-09T05:34:16.530Z\",\"userId\":1}",
+      "UJdDvixlJenSdKROJ9kzA62jx253atsPMvQmlndpwWdyIVZ70cHX8FgdQHbYOGYC": "{\"id\":\"UJdDvixlJenSdKROJ9kzA62jx253atsPMvQmlndpwWdyIVZ70cHX8FgdQHbYOGYC\",\"ttl\":1209600,\"created\":\"2020-05-09T05:34:43.131Z\",\"userId\":1}"
+    },
+    "userCredential": {},
+    "userIdentity": {
+      "1": "{\"provider\":\"facebook\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"2931450186952985\",\"profile\":{\"id\":\"2931450186952985\",\"name\":{\"familyName\":\"Sripada\",\"givenName\":\"Viswanadh\"},\"emails\":[{\"value\":\"viswanadh.sripada@gmail.com\"}],\"provider\":\"facebook\",\"_raw\":\"{\\\"last_name\\\":\\\"Sripada\\\",\\\"first_name\\\":\\\"Viswanadh\\\",\\\"email\\\":\\\"viswanadh.sripada\\\\u0040gmail.com\\\",\\\"id\\\":\\\"2931450186952985\\\"}\",\"_json\":{\"last_name\":\"Sripada\",\"first_name\":\"Viswanadh\",\"email\":\"viswanadh.sripada@gmail.com\",\"id\":\"2931450186952985\"}},\"credentials\":{\"accessToken\":\"EAAIPNkD2ZCTgBACZBZBmwEo4pZASvvViiHpZCakULhyZCnzczZB7IchVajnUMNF8iDlwGqFopcQ5yHZBciRhVbEjLyvHQEL3idwhdBtbyqNZCDr8YSS2HDrgVsFTZC2RNrt7GOXrQ1ahnerZBlGlGqA8oJ700zchzv6LqIZC3itMbaVpKAZDZD\"},\"created\":\"2020-05-07T11:05:24.742Z\",\"modified\":\"2020-05-09T05:34:43.124Z\",\"userId\":1,\"id\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {}
+  }
+}
