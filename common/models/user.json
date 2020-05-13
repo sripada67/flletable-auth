@@ -2,6 +2,12 @@
   "name": "user",
   "plural": "users",
   "base": "User",
+  "properties": {
+    "provider": {
+      "type": "string",
+      "required": true
+    }
+  },
   "relations": {
     "accessTokens": {
       "type": "hasMany",
@@ -20,6 +26,49 @@
     }
   },
   "validations": [],
-  "acls": [],
-  "methods": []
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "verifyFbToken",
+      "accessType": "EXECUTE"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "verifyGoogleToken",
+      "accessType": "EXECUTE"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "getSum",
+      "accessType": "EXECUTE"
+    }
+  ],
+  "methods": {
+    "verifyFbToken": {
+      "accepts": [
+        {"arg": "authToken", "type": "string"}
+      ],
+      "returns": { "arg": "data", "type": "object"}
+    },
+    "verifyGoogleToken": {
+      "accepts": [
+        {"arg": "data", "type": "object"}
+      ],
+      "returns": { "arg": "data", "type": "object"}
+    },
+    "getSum": {
+      "accepts": [
+        {"arg": "a", "type": "number","required":true},
+        {"arg": "b", "type": "number","required":true}
+      ],
+      "returns": { "arg": "sum", "type": "number"}
+    }
+  }
+  
 }

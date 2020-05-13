@@ -3,5 +3,41 @@
     "name": "db",
     "connector": "memory",
     "file":"db.json"
+  },
+  "Facebook": {
+    "name": "Facebook",
+    "baseURL": "",
+    "crud": false,
+    "connector": "rest",
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "https://graph.facebook.com/debug_token?input_token={accessToken}&access_token={accessToken}",
+          "headers": {
+            "accept": "application/json"
+          }
+        },
+        "functions": {
+          "verifyApp": [
+            "accessToken"
+          ] 
+        }
+      },
+      {
+        "template": {
+          "method": "GET",
+          "url": "https://graph.facebook.com/v2.5/me?fields=email,name,friends&access_token={accessToken}",
+          "headers": {
+            "accept": "application/json"
+          }
+        },
+        "functions": {
+          "me": [
+            "accessToken"
+          ] 
+        }
+      }
+    ]
   }
 }

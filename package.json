@@ -15,10 +15,14 @@
     "cors": "^2.8.1",
     "express-flash": "0.0.2",
     "express-session": "^1.7.6",
+    "google-auth-library": "^6.0.0",
     "jade": "^1.7.0",
     "loopback": "^3.0.0",
     "loopback-boot": "^2.0.0",
+    "loopback-component-explorer": "^6.3.1",
     "loopback-component-passport": "^2.2.0",
+    "loopback-connector-mongodb": "^5.2.3",
+    "loopback-connector-rest": "^3.6.0",
     "passport": "^0.2.0",
     "passport-facebook": "^1.0.3",
     "passport-google-oauth": "^0.1.5",
@@ -27,8 +31,7 @@
     "passport-oauth2": "^1.1.2",
     "passport-twitter": "^1.0.2",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.2.0",
-    "loopback-component-explorer": "^6.3.1"
+    "strong-error-handler": "^3.2.0"
   },
   "devDependencies": {
     "eslint": "^2.5.3",
